@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="numero impar e par"/>
+        <attribute name="authors" value="DES-I1HSB"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-04-08 01:32:43 "/>
+        <attribute name="created" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODM2OzIwMjUtMDQtMDg7IjAxOjI1OjQ5ICI7MjYyOQ=="/>
+        <attribute name="edited" value="REVTLUkxSFNCO0VTTjUxMk4xMjYyODM2OzIwMjUtMDQtMDg7IjAxOjMyOjQzICI7MTsyNzI5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numUm" type="Integer" array="False" size=""/>
+            <output expression="&quot;insira um numero&quot;" newline="True"/>
+            <input variable="numUm"/>
+            <if expression="numUm%2 == 0">
+                <then>
+                    <output expression="&quot;o numero &#233; par!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;o numero &#233; impar!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
